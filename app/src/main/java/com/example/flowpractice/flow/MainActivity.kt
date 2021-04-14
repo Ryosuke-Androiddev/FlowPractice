@@ -1,12 +1,11 @@
-package com.example.flowpractice
+package com.example.flowpractice.flow
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.flowpractice.R
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.*
-import kotlinx.coroutines.flow.buffer
-import kotlinx.coroutines.flow.filter
 import kotlinx.coroutines.launch
 
 class MainActivity : AppCompatActivity() {
